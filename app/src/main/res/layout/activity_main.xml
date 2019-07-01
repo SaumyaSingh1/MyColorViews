@@ -26,7 +26,6 @@
             android:layout_height="127dp"
             android:text="Box One"
             style="@style/whiteBox"
-            android:src="@drawable/a"
             android:scaleType="fitXY"
             app:fontFamily="@font/roboto"
             android:id="@+id/txtOne" android:layout_marginBottom="8dp"
