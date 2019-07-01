@@ -11,37 +11,39 @@
 
     <ImageView
             android:layout_width="133dp"
+            android:scaleType="fitXY"
             android:layout_height="123dp" android:id="@+id/txtTwo"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
+            android:layout_marginTop="28dp"
             android:layout_marginEnd="8dp"
             style="@style/whiteBox"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="16dp"
-            android:layout_marginStart="16dp" app:layout_constraintHorizontal_bias="0.11"
-            app:layout_constraintVertical_bias="0.094" app:fontFamily="@font/roboto" android:layout_marginBottom="8dp"
+            android:layout_marginStart="16dp" app:layout_constraintHorizontal_bias="0.106"
+            app:fontFamily="@font/roboto"
             app:layout_constraintTop_toTopOf="parent"/>
     <ImageView
-            android:layout_width="128dp"
-            android:layout_height="124dp"
+            android:layout_width="138dp"
+            android:layout_height="127dp"
             android:text="Box One"
             style="@style/whiteBox"
+            android:src="@drawable/a"
+            android:scaleType="fitXY"
             app:fontFamily="@font/roboto"
             android:id="@+id/txtOne" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
             app:layout_constraintTop_toBottomOf="@+id/txtFive" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
-            app:layout_constraintHorizontal_bias="0.161" app:layout_constraintVertical_bias="0.3"/>
+            app:layout_constraintHorizontal_bias="0.116" app:layout_constraintVertical_bias="0.281"/>
     <ImageView
             style="@style/whiteBox"
             android:layout_width="142dp"
             android:layout_height="120dp"
             android:id="@+id/txtThree"
             app:layout_constraintStart_toEndOf="@+id/txtTwo"
-            android:layout_marginTop="8dp"
-            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.092"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.478"/>
+            android:layout_marginTop="28dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.494"/>
     <ImageView
             style="@style/whiteBox"
             android:layout_width="137dp"
@@ -49,12 +51,9 @@
             android:id="@+id/txtFour"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:layout_marginTop="8dp"
-            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/txtFive" android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp" app:layout_constraintHorizontal_bias="0.493"
-            app:layout_constraintVertical_bias="0.421"/>
+            android:layout_marginLeft="8dp" app:layout_constraintHorizontal_bias="0.452"
+            android:layout_marginTop="36dp" app:layout_constraintTop_toBottomOf="@+id/txtThree"/>
     <ImageView
 
             style="@style/whiteBox"
@@ -63,14 +62,14 @@
             android:id="@+id/txtFive"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.143"
-            app:layout_constraintVertical_bias="0.427"/>
+            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.137"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/txtTwo"
+    />
     <ImageView
             style="@style/whiteBox"
-            android:layout_width="130dp"
-            android:layout_height="124dp"
+            android:layout_width="138dp"
+            android:layout_height="126dp"
             android:id="@+id/txtSix" app:layout_constraintStart_toEndOf="@+id/txtOne" android:layout_marginLeft="8dp"
             android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp" android:layout_marginTop="8dp"
